@@ -1,3 +1,17 @@
+# eslint error
+
+https://github.com/yannickcr/eslint-plugin-react/issues/447
+
+```js
+// redux constants
+
+export const PAGE_SIZE = 3;
+
+// [eslint] Parsing error: The keyword 'export' is reserved
+```
+# `.eslintrc`
+
+```js
 {
     "parserOptions": {
         "ecmaVersion": 6,
@@ -22,3 +36,6 @@
         }
     }
 }
+```
+
+https://github.com/coryhouse/react-slingshot/issues

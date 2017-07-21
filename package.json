@@ -6,7 +6,6 @@
         "build:dll": "roadhog buildDll",
         "test": "roadhog test",
         "lint": "eslint --ext .js src test",
-        "precommit": "npm run lint",
         "prestart": "npm run build:dll"
     },
     "dependencies": {
